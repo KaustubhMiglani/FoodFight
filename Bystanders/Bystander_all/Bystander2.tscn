@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Models/Bystanders/Female_Standing_CoveringEyes.mesh" type="ArrayMesh" id=1]
+[ext_resource path="res://Bystanders/Bystander.tscn" type="PackedScene" id=2]
+
+[node name="Bystander2" instance=ExtResource( 2 )]
+
+[node name="MeshInstance" parent="." index="0"]
+mesh = ExtResource( 1 )
